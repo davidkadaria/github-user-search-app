@@ -1,0 +1,10 @@
+:root {
+	--primary: #0079ff;
+	--secondary: #697c9a;
+	--fill: #4b6a9b;
+	--dark: #2b3442;
+	--light: #f6f8ff;
+	--lighter: #fefefe;
+	/* Fonts */
+	--ff-space-mono: 'Space Mono', monospace;
+}
