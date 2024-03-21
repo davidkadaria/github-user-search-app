@@ -13,16 +13,95 @@
 		<title>GitHub user search app</title>
 	</head>
 	<body>
-		<header class="header">
-			<nav class="navbar">
-				<a class="navbar__logo" href="#">devfinder</a>
-				<button class="navbar__theme-switcher">DARK</button>
-			</nav>
-			<form class="search-form">
-				<input class="search-form__input" type="text" placeholder="Search GitHub username..." />
-				<button class="search-form__button">Search</button>
-			</form>
-		</header>
-		<main class="content">Joined Repos Followers Following</main>
+		<div class="app-wrapper">
+			<header>
+				<nav class="navbar">
+					<a class="navbar__logo" href="#">devfinder</a>
+					<button class="navbar__theme-switcher">
+						<span>dark</span>
+						<img src="/assets/icon-moon.svg" alt="moon" />
+					</button>
+				</nav>
+				<form class="search-form">
+					<img class="search-form__icon" src="/assets/icon-search.svg" alt="search" />
+					<input class="search-form__input" type="text" placeholder="Search GitHub username..." />
+					<span class="search-form__error">No results</span>
+					<button class="search-form__button">Search</button>
+				</form>
+			</header>
+			<main class="content">
+				<div class="content__loader"></div>
+				<div class="content__error">Something went wrong</div>
+				<div class="content__results">
+					<div class="card">
+						<div class="card__header">
+							<img
+								class="card__avatar"
+								src="https://i1.sndcdn.com/artworks-xmCuqQSNj1XXglMO-z2TeHg-t500x500.jpg"
+								alt="avatar"
+							/>
+							<div class="card__basic-info">
+								<h1 class="card__name"></h1>
+								<a class="card__username" href="#"></a>
+								<p class="card__joined"></p>
+							</div>
+						</div>
+						<p class="card__bio"></p>
+						<div class="card__stats">
+							<div class="card__stat-item" id="stat-repos">
+								<h3 class="card__stat-item-header">Repos</h3>
+								<span class="card__stat-item-value">0</span>
+							</div>
+							<div class="card__stat-item" id="stat-followers">
+								<h3 class="card__stat-item-header">Followers</h3>
+								<span class="card__stat-item-value">0</span>
+							</div>
+							<div class="card__stat-item" id="stat-following">
+								<h3 class="card__stat-item-header">Following</h3>
+								<span class="card__stat-item-value">0</span>
+							</div>
+						</div>
+						<div class="card__additional-info">
+							<div class="card__additional-info-item" id="info-location">
+								<img
+									class="card__additional-info-item-icon"
+									src="/assets/icon-location.svg"
+									alt="location"
+								/>
+								<span class="card__additional-info-item-value"></span>
+							</div>
+							<div
+								class="card__additional-info-item card__additional-info-item--disabled"
+								id="info-website"
+							>
+								<img
+									class="card__additional-info-item-icon"
+									src="/assets/icon-website.svg"
+									alt="website"
+								/>
+								<a class="card__additional-info-item-value" href="#"></a>
+							</div>
+							<div class="card__additional-info-item" id="info-twitter">
+								<img
+									class="card__additional-info-item-icon"
+									src="/assets/icon-twitter.svg"
+									alt="twitter"
+								/>
+								<a class="card__additional-info-item-value" href="#"></a>
+							</div>
+							<div class="card__additional-info-item" id="info-company">
+								<img
+									class="card__additional-info-item-icon"
+									src="/assets/icon-company.svg"
+									alt="company"
+								/>
+								<span class="card__additional-info-item-value"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script src="/js/main.js"></script>
 	</body>
 </html>

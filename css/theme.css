@@ -5,6 +5,18 @@
 	--dark: #2b3442;
 	--light: #f6f8ff;
 	--lighter: #fefefe;
+	/* Constant colors */
+	--white: #ffffff;
+	--danger: #f74646;
 	/* Fonts */
 	--ff-space-mono: 'Space Mono', monospace;
+}
+/* Root for dark theme */
+:root[data-theme='dark'] {
+	--primary: #0079ff;
+	--secondary: #ffffff;
+	--fill: #ffffff;
+	--dark: #ffffff;
+	--light: #141d2f;
+	--lighter: #1e2a47;
 }
