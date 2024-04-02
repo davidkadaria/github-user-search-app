@@ -5,7 +5,7 @@ This is a solution to the [GitHub user search app challenge on Frontend Mentor](
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The solution](#the-solution)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
