@@ -13,7 +13,7 @@ This is a solution to the [GitHub user search app challenge on Frontend Mentor](
 
 ## Overview
 
-### The challenge
+### The solution
 
 Users are able to:
 
