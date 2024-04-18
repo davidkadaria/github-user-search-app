@@ -29,7 +29,7 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Github repository](https://github.com/davidkadaria/github-user-search-app)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/github-user-search-app-ADtjizaPbG)
 - Live Site URL: [Vercel](https://github-user-search-app-ashen.vercel.app/)
 
 ### Built with
